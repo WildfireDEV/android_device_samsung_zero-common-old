@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Copyright (C) 2013, 2014 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -110,4 +110,4 @@ rm -rf $DEVBASE/*
 extract ../../$VENDOR/zero-common/common-proprietary-blobs.txt $BASE
 extract ../../$VENDOR/$DEVICE/device-proprietary-blobs.txt $DEVBASE
 
-./../zero-common/setup-makefiles.sh
+./../$DEVICE_COMMON/extract-files.sh $@
