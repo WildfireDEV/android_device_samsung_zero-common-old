@@ -104,7 +104,10 @@
 
 # FINGERPRINT
 /dev/vfsspi               0660   system     system
+<<<<<<< HEAD
 /dev/esfp0                0660   system     system 
+=======
+>>>>>>> 52830112fafdf3fafedff1f91f376af8052d072b
 
 # Broadcom Sensorhub Bridge Driver
 /dev/bbd_sensor           0660   system     system
