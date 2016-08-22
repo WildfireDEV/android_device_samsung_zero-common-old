@@ -11,14 +11,14 @@
 /dev/i2c-2                0660   system     system
 /dev/HPD                  0660   system     system
 
-# gscalers
+# G-Scalers
 /dev/video23              0660   media      graphics
 /dev/video26              0660   media      graphics
 
 /dev/video24              0660   media      graphics
 /dev/video27              0660   media      graphics
 
-# scalers
+# Scalers
 /dev/video50              0660   media      graphics
 /dev/video51              0660   media      graphics
 /dev/m2m1shot_scaler0     0660   media      graphics
@@ -28,10 +28,10 @@
 /dev/media0               0660   system     camera
 /dev/media1               0660   system     camera
 
-# seiren Audio
+# Seiren Audio
 /dev/seiren               0660   system     audio
 
-#mixer
+# Mixer
 /dev/video16              0660   system     audio
 /dev/video17              0660   system     system
 /dev/video18              0660   system     system
@@ -45,13 +45,13 @@
 /dev/video13              0660   media      media
 /dev/video14              0660   media      media
 
-# mfc
+# MFC
 /dev/video6               0660   media      media
 /dev/video7               0660   media      media
 /dev/video8               0660   media      media
 /dev/video9               0660   media      media
 
-# camera
+# Camera
 /dev/video101             0660   media      media
 /dev/video102             0660   media      media
 /dev/video103             0660   media      media
@@ -87,7 +87,7 @@
 /dev/umts_csd             0660   system     loop_radio
 /dev/smd4		  0660	 system	    radio
 
-# sensor sysfs properties
+# Sensor sysfs properties
 /sys/devices/virtual/input/input*	poll_delay	0660	system	radio
 /sys/devices/virtual/input/input*	enable		0660	system	radio
 
@@ -102,12 +102,8 @@
 /dev/mobicore             0700   system     system
 /dev/mobicore-user        0666   radio     system
 
-# Secure MEM driver
-/dev/s5p-smem             0660   system     system
-
 # FINGERPRINT
 /dev/vfsspi               0660   system     system
-/dev/esfp0                0660   system     system
 
 # Broadcom Sensorhub Bridge Driver
 /dev/bbd_sensor           0660   system     system
