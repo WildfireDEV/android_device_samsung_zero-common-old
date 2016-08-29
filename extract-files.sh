@@ -56,4 +56,8 @@ setup_vendor "$DEVICE" "$VENDOR" "$CM_ROOT"
 
 extract "$MY_DIR"/../$DEVICE/device-proprietary-blobs.txt "$SRC"
 
+<<<<<<< HEAD
 "$MY_DIR"/setup-makefiles.sh
+=======
+./../$DEVICE_COMMON/extract-files.sh $@
+>>>>>>> 4aa29108e5fa51c58a39be5e062856a9fad9cee1
